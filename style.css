@@ -3,22 +3,23 @@ html,
 body {
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 200%;
   min-height: 4000px;
   background: #161616;
 }
 
 .circular-text {
   position: fixed;
-  top: 23%;
+  top: 8%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
   color: rgba(255, 255, 255, 0);
-  font-size: 24px;
+  font-size: 48px;
   font-weight: bolder;
   font-family: "Monument Extended";
   transition: 0.5s ease-out;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+  -webkit-text-stroke: 1px #00ff00;
+  cursor: pointer;
 }
 
 .arrow {
